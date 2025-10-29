@@ -12,9 +12,6 @@ import os
 from config import config
 from rag_system import RAGSystem
 
-print("hello-world")
-
-
 # Initialize FastAPI app
 app = FastAPI(title="Course Materials RAG System", root_path="")
 
